@@ -3,7 +3,7 @@ from PIL import Image
 import pandas as pd
 import random
 
-df = pd.read_csv('아이언디바이스_점심메뉴.csv')
+df = pd.read_csv('iron_lunchlist.csv')
 
 image = Image.open('다운로드.png')
 st.image(image)
