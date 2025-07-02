@@ -67,4 +67,4 @@ if st.button('전체 메뉴 리스트'):
     
 st.write('\n')
 
-st.write('아이언디바이스 화이팅!')
+#st.write('아이언디바이스 화이팅!')
