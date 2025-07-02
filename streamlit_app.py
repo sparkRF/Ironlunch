@@ -5,7 +5,7 @@ import random
 
 df = pd.read_csv('iron_lunchlist.csv')
 
-image = Image.open('다운로드.png')
+image = Image.open('다운로드.jpg')
 st.image(image)
 
 st.write('아이언디바이스 점심 메뉴 추천 페이지입니다.')
