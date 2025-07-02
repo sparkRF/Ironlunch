@@ -29,27 +29,27 @@ if st.button('점심 추천'):
         index = random.randrange(0,len(df))
         st.write('오늘의 점심은:')
         st.write(df.iloc[index,1] + '(' + df.iloc[index,0] + ')')
-    elif menu == "한식만 추천":
-        index = random.randrange(24,len(df))
+    elif menu == "인도식만 추천":
+        index = random.randrange(15,len(df))
         st.write('오늘의 점심은:')
         st.write(df.iloc[index,1] + '(' + df.iloc[index,0] + ')')
-    elif menu == "분식만 추천":
-        index = random.randrange(22,24)
-        st.write('오늘의 점심은:')
-        st.write(df.iloc[index,1] + '(' + df.iloc[index,0] + ')')
-    elif menu == "중식만 추천":
-        index = random.randrange(14,22)
-        st.write('오늘의 점심은:')
-        st.write(df.iloc[index,1] + '(' + df.iloc[index,0] + ')')
-    elif menu == "일식만 추천":
-        index = random.randrange(9,14)
+    elif menu == "베트남식만 추천":
+        index = random.randrange(14,15)
         st.write('오늘의 점심은:')
         st.write(df.iloc[index,1] + '(' + df.iloc[index,0] + ')')
     elif menu == "양식만 추천":
-        index = random.randrange(3,9)
+        index = random.randrange(12,14)
         st.write('오늘의 점심은:')
         st.write(df.iloc[index,1] + '(' + df.iloc[index,0] + ')')
-    elif menu == "베트남만 추천":
+    elif menu == "중식만 추천":
+        index = random.randrange(11,12)
+        st.write('오늘의 점심은:')
+        st.write(df.iloc[index,1] + '(' + df.iloc[index,0] + ')')
+    elif menu == "일식만 추천":
+        index = random.randrange(9,11)
+        st.write('오늘의 점심은:')
+        st.write(df.iloc[index,1] + '(' + df.iloc[index,0] + ')')
+    elif menu == "한식만 추천":
         index = random.randrange(0,9)
         st.write('오늘의 점심은:')
         st.write(df.iloc[index,1] + '(' + df.iloc[index,0] + ')')
